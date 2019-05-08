@@ -1,0 +1,32 @@
+{
+  "name": "@vechain/usb-monitor",
+  "version": "0.0.0",
+  "description": "to monitor usb device activities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianbin/usb-monitor.git"
+  },
+  "keywords": [
+    "usb",
+    "monitor",
+    "hid"
+  ],
+  "author": "qianbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianbin/usb-monitor/issues"
+  },
+  "homepage": "https://github.com/qianbin/usb-monitor#readme",
+  "dependencies": {
+    "node-hid": "^0.7.8",
+    "usb": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node-hid": "^0.7.0",
+    "@types/usb": "^1.5.1"
+  }
+}
