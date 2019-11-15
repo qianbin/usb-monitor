@@ -1,6 +1,6 @@
 {
   "name": "@vechain/usb-monitor",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "to monitor usb device activities",
   "main": "dist/index.js",
   "scripts": {
@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/qianbin/usb-monitor#readme",
   "dependencies": {
+    "@types/node-hid": "^0.7.0",
+    "@types/usb": "^1.5.1",
     "node-hid": "^0.7.8",
     "usb": "^1.5.0"
   },
   "devDependencies": {
-    "@types/node-hid": "^0.7.0",
-    "@types/usb": "^1.5.1",
     "ts-node": "^8.1.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
