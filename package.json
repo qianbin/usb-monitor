@@ -1,6 +1,6 @@
 {
   "name": "@vechain/usb-monitor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "to monitor usb device activities",
   "main": "dist/index.js",
   "scripts": {
